@@ -21,4 +21,4 @@ that the forum app is restricted only to authenticated users:
         url(r'^%s$' % _('feedback/'), app.feedback, name='feedback'),
         (r'^%sfb/' % _('account/'),  include('fbconnect.urls')),
         (r'^%s' % _('account/'), include('django_authopenid.urls')),
-
+*rdfa markup would be really nice eg. SIOC
